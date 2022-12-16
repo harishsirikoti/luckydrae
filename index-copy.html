@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zelar Lucky Draw</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="image-div">
+        <img src="./images/luckydraw-image.gif" alt="luckydraw-image" />
+      </div>
+      <div class="image-div winner">
+        <img
+          id="win"
+          src="./images/winner.gif"
+          alt="winner-image"
+          style="display: none"
+        />
+      </div>
+      <div id="content">
+        <div id="demo2" class="names">All The Best</div>
+      </div>
+      <div class="footer-div">
+        <h1 class="serialnumber" id="winner"></h1>
+        <button id="btn" onclick="pickname()">Pick..</button>
+      </div>
+    </div>
+    <script src="./js/luckydraw.js"></script>
+  </body>
+</html>
